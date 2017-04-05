@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HW3</title>
+    <!-- This works in Chrome -->
+  </head
+  <body>
+	<h4>Map of Dancefloor</h4>
+	<div id = "map" style="height:160px;width:220px;border:1px solid #ccc;overflow:auto;"></div>
+	<p>x is undiscovered, E is empty, C is challenge, S is start, G is goal</p>
+	<br>
+	<form id = "directionForm">
+  		<input type = "button" id = "upButton" value ="up"></input>
+		<input type = "button" id = "downButton" value ="down"></input>
+		<input type = "button" id = "rightButton" value ="right"></input>
+		<input type = "button" id = "leftButton" value ="left"></input>
+	</form>
+	<div id = "instructions" style="height:400px;width:600px;border:1px solid #ccc;overflow:auto;"></div>
+	<form id = "leaveOrFight">
+  		<input type = "button" id = "leave" value ="Leave"></input>
+		<input type = "button" id = "engage" value ="Engage in challenge"></input>
+	</form>
+	<script src="main.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  </body>
+</html>
